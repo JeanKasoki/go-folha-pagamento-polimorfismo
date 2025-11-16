@@ -36,7 +36,7 @@ func processarFolha(f []funcionario){
 	fmt.Printf("Salário calculado: %.2f\n", salario)
 		total += salario
 	}
-	fmt.Printf("Custo total da folha: %2f\n", total)
+	fmt.Printf("Custo total da folha: %.2f\n", total)
 }
 
 func main(){
